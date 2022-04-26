@@ -31,13 +31,14 @@
 # Expected Time Complexity: O(N)
 # Expected Auxiliary Space: O(1)
 
-
+# Bismillahi Rahmani Rahim
+# output runs in the O(n)
 arr = [1,2,3,7,5]
 arr = [1,2,3,4,5,6,7,8,9,10]
 for othIndexPointer in range(0, len(arr)):
     othIndexPointerValue = arr[othIndexPointer]
-    secondIndexPointer = arr[len(arr) - 1]
-    sumTotalOfAllPointers = (othIndexPointerValue  + secondIndexPointer)
-    if(sumTotalOfAllPointers == 15):
+    secondIndexPointerValue = arr[len(arr) - 1]
+    sumTotalOfAllPointers = (othIndexPointerValue  + secondIndexPointerValue)
+    if(sumTotalOfAllPointersValues == 15):
         print(othIndexPointer)
-        print(arr.index(secondIndexPointer))
+        print(arr.index(secondIndexPointerValue))
